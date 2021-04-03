@@ -1,0 +1,25 @@
+
+public class A {
+public void m1()
+{
+	
+System.out.println("m1-Start");
+B b=new B();
+
+try
+{
+b.m2();	
+}
+catch(ArithmeticException e)
+{
+	System.out.println("catch Block");
+}
+
+}
+public static void main(String[] args) {
+	System.out.println("main -Start");
+	A a=new A();
+	a.m1();
+	System.out.println("main-End");
+}
+}
