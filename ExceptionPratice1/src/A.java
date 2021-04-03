@@ -23,4 +23,9 @@ public static void main(String[] args) {
 	System.out.println("main-End");
 	System.out.println("Akshay dada ekch vada");
 }
+	
+	public void sachin()
+	{
+		System.out.println("sachin cognizant");
+	}
 }
